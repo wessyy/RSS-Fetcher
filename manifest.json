@@ -1,19 +1,20 @@
 {
+  "manifest_version" : 2,
   "name": "RSS Fetcher",
   "version": "0.1",
 
-  "description": "Keep up with the latest from [insert web site here].",
+  "description": "Keep up with the latest from Nike.",
   "icons": { "16" : "images/icon.png",
                         "48" : "images/48.png",
                         "128" : "images/128.png"},
-  "homepage_url": "http://insert_web_site_here.com/",
+  "homepage_url": "https://twitter.com/Nike",
         "background_page": "background.html",
         "permissions": [
-          "http://insert_base_rss_url_here.com/*"
+          "https://twitrss.me/twitter_user_to_rss/?user=nike/*"
         ],
         "browser_action": {
     "default_icon": "images/icon.png",
-    "default_title": "[INSERT WEB SITE NAME HERE] Fetcher",
+    "default_title": "Tweet Notifier",
     "default_popup": "popup.html"
   }
 }
